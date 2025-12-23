@@ -1,0 +1,28 @@
+(BROK CNC - Calibration Test v7)
+(Matching WORKING G-code format exactly)
+()
+(v1.6-af)
+G20G90
+G0X0.Y0.
+H0
+
+(Test circle - using WORKING format)
+G0X6.0Y6.0
+G92Z0
+G38.2Z-5F50
+G38.4Z0.5F25
+G92Z0
+G0Z0.15
+M3
+G4P0.70
+G0Z0.080
+H1
+G3X6.5Y6.0I0.25J0.0F50
+G3X5.5Y6.0I-0.5J0.0F50
+G3X6.5Y6.0I0.5J0.0F50
+H0
+M5
+G0Z1
+G0X0Y0
+M30
+(PS50.00)

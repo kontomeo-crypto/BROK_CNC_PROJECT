@@ -1,0 +1,23 @@
+(BROK CNC - Test v9 - STRAIGHT LINE)
+(Exact copy of working format)
+()
+(v1.6-af)
+G20G90
+G0X0.Y0.
+H0
+
+G92Z0
+G38.2Z-5F50
+G38.4Z0.5F25
+G92Z0
+G0Z0.15
+M3
+G4P0.70
+G0Z0.080
+H1
+G1X2.00F50.00
+H0
+M5
+G0Z1
+M30
+(PS50.00)
